@@ -41,22 +41,23 @@ $(document).ready(function() {
     $(".butwhy").toggle();
     $(".ion-help-circled").show();
    });
-  
+
   $(".ion-help-circled").click(function() {
     $(".butwhy").toggle();
     $(".ion-help-circled").hide();
    });
-  
+
   $(".pair").click(function(){
     window.open("https://gitter.im/FreeCodeCamp/LetsPair",'_blank');
   });
-  
-/*   $(".contribute").click(function(){
+
+ $(".contribute").click(function(){
+    window.open("https://github.com/tommygebru/camperguide",'_blank');
+  });
+
+/*     $(".refresh").click(function(){
     window.open("",'_blank');
   });
-     $(".refresh").click(function(){
-    window.open("",'_blank');
-  });
-  
+
   */
 });
